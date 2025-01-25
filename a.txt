@@ -1,0 +1,57 @@
+
+<div class="container">
+    <div class="text-over-image">
+        
+    <h1>BEST QUALITY<br>FOOD</h1>
+    <div class="content">
+         <p class="motto">Plongez dans les saveurs exequises et des expériences cumlinaires inoubliables au Gondwana Food. Venez découvrir notre menu varié, préparé avec passion et expertise. Chaque plat est une invitation au voyage gustatif, vous promettant une expérience gastronomique mémorable à chaque bouchée.</p>
+         <a href="#"class="btn1">Reservation ICI</a>
+    </div>
+    </div>
+<img class="imagetop" src="assets\images\premium_photo-1661432769134-758550b8fedb.jpeg" alt="image"/>
+</div>
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.text-over-image{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1; 
+    text-align: center;
+}
+
+.imagetop{
+    width: 100%;
+    display: block;
+    
+       
+}
+h1{
+    font-size: 4em;
+
+}
+
+.content{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    margin-right: -250px; 
+    text-align: left;
+    padding: 20px;
+    margin-top: 5px;  
+}
+
+
+header{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(images/3.jpg);
+    background-size: cover;
+}
